@@ -5,7 +5,7 @@
  *
  * @project   WHMCS
  * @version   1.0
- * @author    WHMCS Limited <development@whmcs.com>
+ * @author    Cutler Mcmartin
  * @copyright Copyright (c) WHMCS Limited 2005-2015
  * @license   http://www.whmcs.com/license/
  * @link      http://www.whmcs.com/
@@ -124,35 +124,15 @@
     margin:-30px 0 0 0;
     width:245px;
 }
-#order-premium_comparison .price-table-container .price-table .top-head {
-    /* Old browsers */
-    background: #006699;
-    /* FF3.6+ */
-    background: -moz-linear-gradient(top,  #006699 0%, #004c66 100%);
-    /* Chrome,Safari4+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006699), color-stop(100%,#004c66));
-    /* Chrome10+,Safari5.1+ */
-    background: -webkit-linear-gradient(top,  #006699 0%,#004c66 100%);
-    /* Opera 11.10+ */
-    background: -o-linear-gradient(top,  #006699 0%,#004c66 100%);
-    /* IE10+ */
-    background: -ms-linear-gradient(top,  #006699 0%,#004c66 100%);
-    /* W3C */
-    background: linear-gradient(to bottom,  #006699 0%,#004c66 100%);
-    /* IE6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#004c66',GradientType=0);
-    border-radius:5px 5px 0 0;
-    -moz-border-radius:5px 5px 0 0;
-    -webkit-border-radius:5px 5px 0 0;
-}
+
 #order-premium_comparison .price-table-container .price-table .top-head .top-area {
-    padding:15px 0;
-    margin:0 0 0 0;
-    border-bottom:1px solid #004662;
+    padding: 15px 0;
+    margin: 0 0 0 0;
     -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
     -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
     -ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
     text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    background-color: #5A0002;
 }
 #order-premium_comparison .price-table-container .price-table .top-head .top-area h4 {
     padding:0 0 0 0;
@@ -171,19 +151,13 @@
 #order-premium_comparison .price-table-container .price-table .top-head .price-area {
     padding:15px 0;
     margin:0 0 0 0;
-    border-top:1px solid #12688d;
-    -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-    -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-    -ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-    color:#ffffbf;
-    font-size:16px;
+    font-size:14px;
 }
 #order-premium_comparison .price-table-container .price-table .top-head .price-area .price {
     padding:10px 0 10px 0;
 }
 #order-premium_comparison .price-table-container .price-table .top-head .price-area .price span {
-    font-size:38px;
+    font-size:32px;
 }
 #order-premium_comparison .price-table-container .order-button,
 #order-premium_comparison .price-table-container .order-button:hover {
@@ -193,22 +167,7 @@
     color:#ffffff;
     display:block;
     font-weight:normal;
-    /* Old browsers */
-    background: #4a92b7;
-    /* FF3.6+ */
-    background: -moz-linear-gradient(top,  #4a92b7 0%, #006699 100%);
-    /* Chrome,Safari4+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a92b7), color-stop(100%,#006699));
-    /* Chrome10+,Safari5.1+ */
-    background: -webkit-linear-gradient(top,  #4a92b7 0%,#006699 100%);
-    /* Opera 11.10+ */
-    background: -o-linear-gradient(top,  #4a92b7 0%,#006699 100%);
-    /* IE10+ */
-    background: -ms-linear-gradient(top,  #4a92b7 0%,#006699 100%);
-    /* W3C */
-    background: linear-gradient(to bottom,  #4a92b7 0%,#006699 100%);
-    /* IE6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a92b7', endColorstr='#006699',GradientType=0);
+    background: #5A0002;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     -ms-border-radius:3px;
@@ -245,13 +204,13 @@
     padding: 4px 10px 10px 10px;
     margin:0 0 0 0;
     list-style:none;
+    background-color: #2A3443;
 }
 #order-premium_comparison .price-table-container .price-table ul li {
     padding:17px 0 15px 0;
     margin:0 0 0 0;
     width:100%;
-    border-bottom:1px solid #d9d9d9;
-    color:#333333;
+    color:#FFFFFF;
     text-align:center;
     line-height:16px;
     font-size:14px;
