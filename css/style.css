@@ -11,7 +11,7 @@
  * @link      http://www.whmcs.com/
  */
 
-div#order-premium_comparison {
+ div#order-premium_comparison {
     padding:0 0 0 0;
     margin:0 0 30px 0;
     height: 100%;
@@ -105,7 +105,6 @@ div#order-premium_comparison {
     padding:30px 10px 5px 10px;
     margin:0 0 0 0;
     display:inline-block;
-    background:url(../img/shadow-btm.png) no-repeat center bottom;
 }
 #order-premium_comparison .price-table-container .price-table {
     padding:0 0 0 0;
